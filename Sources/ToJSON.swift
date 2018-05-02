@@ -89,6 +89,7 @@ internal final class ToJSON {
 			|| x is Dictionary<String, Float>
 			|| x is Dictionary<String, String>
 			|| x is Dictionary<String, Any>
+			|| x is Date
 		{
 			setValue(x, map: map)
 		}
